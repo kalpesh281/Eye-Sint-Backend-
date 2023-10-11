@@ -20,9 +20,9 @@ app = Flask(__name__)
 CORS(app)
 
 # MongoDB connection
-client = MongoClient("mongodb+srv://shenvakalpesh4:z0LDlMgGlqs1BWBZ@cluster0.yg1kuiy.mongodb.net/?retryWrites=true&w=majority")
-db = client["Eyesint"]  
-users_collection = db["users"]
+# client = MongoClient("mongodb+srv://shenvakalpesh4:z0LDlMgGlqs1BWBZ@cluster0.yg1kuiy.mongodb.net/?retryWrites=true&w=majority")
+# db = client["Eyesint"]  
+# users_collection = db["users"]
 
 # Register route
 @app.route("/register", methods=["POST"])
